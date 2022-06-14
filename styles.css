@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+
+.header, .footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+}
+
+.header {
+    border: #1F2937;
+    justify-content: space-between;
+}
+
+.header h2 {
+    border: #1F2937;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    border: #1F2937;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    
+}
+
+.right {
+    width: 500px;
+    text-align: center;
+    
+}
+
+.left {
+    flex: 1;
+    margin-left: 100px;
+    padding: 26px;
+}
+
+
+.hero .text {
+    font-size: 38px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.logo-image {
+    margin-top: 40px;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.secondframe h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.secondframe .container {
+    justify-content: center;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.thor {
+    text-align: right;
+    font-weight: bold;
+}
+
+.footer-container {
+    background-color:#3882F6;
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer-right {
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.footer-left {
+    flex: 1;
+    margin-left: 100px;
+}
+
+.footer, .footer-text {
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    margin: 10px;
+    gap: 8px;
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+button {
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+
+img {
+    height: 75px;
+    width: 75px;
+}
+
